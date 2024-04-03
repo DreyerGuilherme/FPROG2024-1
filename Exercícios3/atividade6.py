@@ -23,5 +23,3 @@ if (option == "PAR" and sum_numbers % 2 == 0) or (option == "ÍMPAR" and sum_num
     print("Você venceu!")
 else:
     print("O programa venceu!")
-
-    #NÃO CONSEGUI FAZER O PROGRAMA !! (procurei ajuda no google e mesmo assim não consegui)
