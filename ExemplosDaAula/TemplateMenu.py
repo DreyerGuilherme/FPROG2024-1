@@ -1,11 +1,9 @@
-import os # Biblioteca de software do Python
+import os 
 
-################ FUNÇÕES ################
-# Menu com as opções de escolha
 def menu():
   print('\n..:: Desenvolvendo programas com menus ::..\n')
   
-  # Limpa a tela - Win/Linux/MacOS 
+
   os.system('cls' if os.name == 'nt' else 'clear') 
   print('1 - Opção 1')
   print('2 - Opção 2')
@@ -14,7 +12,6 @@ def menu():
   item = input('Escolha uma opção: ')
   return item
 
-# AÇÃO: Uma função para cada item do menu
 def opcao_1():
 	print('\nOpção escolhida: 1\n')
 def opcao_2():
@@ -22,9 +19,6 @@ def opcao_2():
 def opcao_3():
 	print('\nOpção escolhida: 3\n')
 
-
-################ PROGRAMA PRINCIPAL ################
-# LOOP: Processamento do menu e chamada das funções
 escolha = ''
 while(escolha != '0'):
     escolha = menu()

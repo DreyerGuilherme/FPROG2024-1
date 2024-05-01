@@ -7,8 +7,10 @@ def mediaUnisinos(grauA, grauB):
 ################ PROGRAMA PRINCIPAL ###############
 
 grauA = float(input('Digite sua media do grau A: '))
+print('-----------------------------------------------')
 grauB = float(input('Digite sua media do grau B: '))
+print('-----------------------------------------------')
 
 grauFinal = mediaUnisinos(grauA, grauB)
-print('Grau final é: ', grauFinal)
+print('Media final é: ', grauFinal)
 # print('Grau final é ', mediaUnisinos(grauA, grauB))

@@ -1,10 +1,6 @@
-############ FUNÇÕES ##############
-def tabuada(n):
-    for i in range(1,11):
-        print(n, ' x ', i, ' = ', n * i)
+def tabuada(numero):
     
-################ PROGRAMA PRINCIPAL ###############
-
-for i in range(1, 11):
-    tabuada(i)
-print('-----------------------')
+    resultados = ""
+    for i in range(1, 11):
+        resultados += f"{numero} x {i} = {numero * i}\n"
+    return resultados

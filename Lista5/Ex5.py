@@ -4,11 +4,17 @@ def menu():
   print('\n..:: Desenvolvendo programas com menus ::..\n')
   os.system('cls' if os.name == 'nt' else 'clear') 
   print('1 - Somar')
+  print('---------------------------------------')
   print('2 - Subtrair')
+  print('---------------------------------------')
   print('3 - Multiplicar')
+  print('---------------------------------------')
   print('4 - Dividir')
+  print('---------------------------------------')
   print('0 - Sair\n')
   item = input('Escolha uma opção: ')
+  print('---------------------------------------')
+
   return item
 
 def somar(x, y):
@@ -30,10 +36,13 @@ def main():
     while True:
         try:
             num1 = float(input("Digite o primeiro número real: "))
+            print('---------------------------------------')
             num2 = float(input("Digite o segundo número real: "))
+            print('---------------------------------------')
             break
         except ValueError:
             print("Por favor, digite apenas números reais.")
+            print('---------------------------------------')
 
     escolha = ''
     while(escolha != '0'):
@@ -58,8 +67,7 @@ def main():
             continue
         print(f'\nResultado: {resultado}\n')
         input('Pressione ENTER para continuar')
+        print('---------------------------------------')
 
 if __name__ == "__main__":
     main()
-
-    ### REVISAR ###
